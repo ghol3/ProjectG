@@ -3,11 +3,11 @@ html, body{
 	sans-serif; 
 	font-size: 13px; 
 	color: #9b9b9b; 
-	height: 100%; 
+
 	margin: 0; 
 	padding: 0;
 	background-position: top center;
-	min-width: 980px;
+
 
 }
 
@@ -177,12 +177,11 @@ width: 463px; height: 31px; border: 1px solid rgb(160,160,160); color: rgb(251, 
 #buy_form{
 	width: 609px;
 	margin: 0 auto;
-
 }
 
 #data1{
 	width: 304px;
-	float: left;
+	display: inline-block;
 	margin-bottom: 20px;
 }
 
@@ -190,7 +189,6 @@ width: 463px; height: 31px; border: 1px solid rgb(160,160,160); color: rgb(251, 
 #footer{
 	float: left;
 	width: 980px;
-	height: 80px;
 	background: #2d2d2d;
 
 }
@@ -205,15 +203,13 @@ width: 463px; height: 31px; border: 1px solid rgb(160,160,160); color: rgb(251, 
 
  #pay_left{
  	color: rgb(0,0,0);
- 	float: left;
  	width: 249px;
- 	height: 100px;
+ 	
 
  }
  #pay_right{
- 	float: left;
  	width: 249px;
- 	height: 100px;
+ 	
 color: rgb(0,0,0);
  }
 
@@ -260,4 +256,9 @@ color: rgb(0,0,0);
  	border: 1px solid rgb(180,180,180);
  	color: rgb(251, 107, 46);
 	font-weight: bold;
+ }
+
+ #button-div{
+ 	width: 100%;
+ 	display: inline-block;
  }
