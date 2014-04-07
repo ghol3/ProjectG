@@ -22,14 +22,14 @@ html, body{
 .center{
 	text-align: center;
 }
-#top_part{
-
+#top{
+	height: 460px;
 }
 
 #mid_part{
 	width: 900px;
 	margin: auto;
-	margin-top: 75px;
+	margin-top: 40px;
 
 }
 
