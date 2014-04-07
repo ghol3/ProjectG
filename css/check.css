@@ -1,0 +1,287 @@
+html, body{
+	font-family: 'Roboto Condensed', 
+	sans-serif; 
+	font-size: 13px; 
+	color: #9b9b9b; 
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+	background-position: top center;
+	min-width: 980px;
+
+}
+
+#page{
+	width: 980px;
+	margin: 0 auto;
+}
+.block{ 
+	display: block; 
+}
+#pay_part{
+	width: 685px;
+	/*background: rgb(255,100,100);*/
+	float: left;
+}
+.block{ display: block; }
+.pb_img { text-align: center; overflow: hidden; width: 248px; height: 163px; margin-left: auto; margin-right: auto; }
+.price_l{
+	float: right;
+	margin-right: 20px;
+	font-size: 16px;
+}
+.pb_info_text_b{ 
+	height: 55px;
+	overflow: hidden; 
+	margin-left: 25px;
+	width: 270px;
+}
+
+.pb_cont{ width: 248px; background-image: url('../images/prod_block_bg.png'); padding: 15px 19px; }
+.pb_img{ text-align: center; overflow: hidden; width: 248px; height: 163px; }
+.pb_title{ font-size: 16px; font-weight: bold; color:#000; margin-bottom: 10px; margin-left: 25px;}
+.pb_title span{ float: right; color: #fb6b2e; }
+.pb_info_text{ /*width: 185px;*/ height: 100px; overflow: hidden; }
+.pb_buy_butt{ margin-top: 10px; }
+.a_prod_buy{ padding-left: 29px; width: 76px; line-height: 19px; vertical-align: middle; height: 19px; 
+	background-image: url('../images/add_cart_butt.png'); color:#FFF; font-size: 13px; font-weight: bold; 
+	overflow: hidden; display: block; text-decoration: none; text-transform: uppercase; 
+	margin-right: 25px;
+	margin-bottom: 5px;
+}
+.price_l{ 
+	color:#fb6b2e;  font-weight: bold; 
+	margin-top: 0px;
+}
+
+.blue_butt{  background-image: url('../images/blue_butt.png'); width: 75px;height: 19px; line-height: 19px; font-size: 12px; 
+text-decoration: none; color:#FFF; text-align: center; vertical-align: middle; font-weight: bold; text-transform: uppercase;
+	margin-left: 25px;
+ }
+ 
+/* RIGHT PART HERE */
+#right_part{
+	width: 290px;
+	float: right;
+}
+
+#delivery_box, #login_box, #user_box{
+	width: 290px;
+overflow: hidden;
+	transition: 1s;
+	margin-bottom: 1px;
+
+	border: 1px solid rgb(200,200,200);
+	border-radius: 5px;
+}
+
+#user_box{
+	max-height: 200px;
+}
+
+#login_box{
+	max-height: 240px;
+}
+
+.show{
+	width: 290px;
+	height: 700px;
+	background: rgb(230,230,230);
+	transition: 1s;
+}
+
+.hide{
+	width: 290px;
+	height: 50px;
+	transition: 1s;
+}
+
+
+#delivery_total{ color:#000; }
+.total_price{ color:#fb6b2e; float:right; }
+.del_title{ color:#000; font-size: 16px; font-weight: bold; border-bottom: 1px solid #eeeeee; padding-bottom: 15px; 
+	cursor: pointer;
+ }
+#del_checkbox{ float: right; margin-top: -6px; }
+.del_item{ margin-top: 10px; position: relative; }
+.del_item span{  }
+
+/* OTHERS */
+.left{ float: left; }
+.right{ float: right; }
+.over{ overflow: hidden; }
+
+/* INPUTS */
+
+.my_inp{  padding: 0; padding-left: 10px; 
+width: 235px; height: 31px; border:1px solid rgb(180,180,180); color: rgb(251, 107, 46); font-weight: bold; line-height: 31px; vertical-align: middle;  
+border-radius: 5px;
+}
+
+.my_textarea{  padding: 10px; width: 355px; 
+resize: none; height:51px; overflow: hidden; display: block; border:1px solid rgb(180,180,180);  color: rgb(251, 107, 46); font-weight: bold;  
+
+border-radius: 5px;
+}
+
+.my_butt{
+	color: rgb(255,255,255);
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Roboto Condensed';
+	text-transform: uppercase;
+	padding:5px 15px; background:rgb(251, 107, 46); border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+
+#buy_butt_a{ display: block; background-image: url('../images/buy_butt.png'); width: 120px; height: 40px; line-height: 40px; vertical-align: middle; color:#FFF; font-weight: bold; text-transform: uppercase; text-align: center; font-size: 21px; text-decoration: none; }
+#buy_butt{ margin: 10px 0 ; }
+
+/* CART HERE */
+#cart_title{ color:#000; font-size: 21px; font-weight: bold; }
+.cart_price{ float: right; }
+#cart_items{ border-bottom: 1px solid #eeeeee; display: block; overflow: hidden; padding-bottom: 15px; margin-bottom: 15px; }
+#cart_total{  color:#000; font-weight: bold; }
+
+#cart{
+		border: 1px solid rgb(200,200,200);
+	border-radius: 5px;
+	margin-bottom: 1px;
+}
+
+
+#cart_box_img{  
+	height: 31px; 
+	width: 31px; 
+	display: block; 
+	margin-left: 210px;
+	margin-top: -15px;
+}
+
+.my_inppp{ background-image: url('../images/big_input.png'); padding: 0; padding-left: 10px;
+width: 463px; height: 31px; border: 1px solid rgb(160,160,160); color: rgb(251, 107, 46); font-weight: bold; line-height: 31px; vertical-align: middle;  
+		border: 1px solid rgb(200,200,200);
+	border-radius: 5px;
+}
+
+#data_title{
+	font-size: 20px;
+	color: rgb(0,0,0);
+}
+
+#buy_form{
+	width: 500px;
+	margin: 0 auto;
+
+}
+.center{
+	text-align: center;
+}
+#data1{
+	margin-bottom: 20px;
+}
+
+.border{
+	border: 1px solid rgb(200,200,200);
+	border-radius: 5px;
+}
+
+.padd-50{
+	padding-left: 50px;
+}
+
+/* FOOTERT HERE */
+#footer{
+	float: left;
+	width: 980px;
+	height: 80px;
+	background: #2d2d2d;
+
+}
+.footer_text{
+	margin-top: 35px;
+	margin-left: 40px;
+}
+#footer a{
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+ #pay_left{
+ 	color: rgb(0,0,0);
+ 	float: left;
+ 	width: 249px;
+ 	height: 100px;
+
+ }
+ #pay_right{
+ 	float: right;
+ 	width: 249px;
+ 	height: 100px;
+color: rgb(0,0,0);
+ }
+
+ #pay_left ul, #pay_right ul{
+ 	list-style: none;
+ 	padding-top: 0px;
+ 	margin-top: 0px;
+ 	padding-left: 5px;
+ }
+
+  #pay_left li, #pay_right li{
+ 	list-style: none;
+ }
+ .black{
+ 	color: rgb(0,0,0);
+ 	padding-left: 2px;
+ }
+
+ #pay_info{
+ 	margin-left: 10px;
+ 	margin-top: 10px;
+ 	font-size: 17px;
+ }
+
+ #just_title{
+ 	font-size: 25px;
+	margin-left: 75px;
+	color: rgb(0,0,0);
+ }
+
+
+#cart_product{
+border: 1px solid rgb(200,200,200);
+	border-radius: 5px;
+	margin-bottom: 1px;
+}
+ #cart_product table{
+	width: 100%;
+}
+.main_img img{
+	height: 75px;
+}
+
+#cart_product_info{
+	width: 200px;
+	height: 50px;
+}
+#cart_product_title{
+	font-size: 17px;
+	color: rgb(0,0,0);
+}
+#cart_product_desc{
+
+}
+.instock{
+	font-size: 17px;
+	color: #398000;
+}
+.delete_product{
+
+}
+.count_product_price{
+	font-weight: bold;
+	color: rgb(117,196,30);
+}
