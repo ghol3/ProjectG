@@ -134,8 +134,10 @@ html, body{
 .info_block{ 
 	width: 204px; 
 	float: left; 
-	margin-right: 10px;
-	margin-left: 10px; 
+	margin-right: 28px;
+}
+.info_block:last-child{
+	margin-right: 0px;
 }
 
 .info_block_c{ 
@@ -171,6 +173,7 @@ html, body{
 	font-weight: bold; 
 	text-transform: uppercase;  
 	margin-bottom: 4px; 
+	line-height: 38px;
 }
 
 .al_c {
@@ -509,7 +512,11 @@ border-radius: 5px;
 	color: rgb(255,255,255);
 	
 }
-
+.s-sub{
+	display: inline-block;
+  vertical-align: middle;
+  line-height: 14px;
+}
 .submenu-link:link {color:rgb(0,0,0); text-decoration: none;}      /* unvisited link */
 .submenu-link:visited {color:rgb(0,0,0);}  /* visited link */
 .submenu-link:hover {color:rgb(0,0,0); text-decoration: underline;}  /* mouse over link */
